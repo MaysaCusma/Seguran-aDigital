@@ -14,6 +14,7 @@
     font-weight: 400;
 }
 
+
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
@@ -118,8 +119,42 @@ label{
     cursor: pointer;
 }
 
+.forca{
+    height: 30px;
+    position: relative;
+}
+
+.fraca{
+    width: 25%;
+    background-color: #680612;
+}
+
+.media{
+    width: 50%;
+    background-color: #fff787;
+}
+
+.forte{
+    width: 100%;
+    background-color: #0a5800;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-titulo{
+    width: 100%;
+}
+
+.conteudo-titulo img{
+    width: 10%;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
         flex-direction: row;
     }
 }
+
